@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "quarto_websiter"
+  title: "Chris Lu's Website"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
+    theme: morph
     css: styles.css
     toc: true
 

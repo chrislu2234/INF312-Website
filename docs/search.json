@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto_websiter",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nlibrary(leaflet)\n\nWarning: package 'leaflet' was built under R version 4.2.3\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0     ✔ purrr   1.0.1\n✔ tibble  3.1.8     ✔ dplyr   1.1.0\n✔ tidyr   1.3.0     ✔ stringr 1.5.0\n✔ readr   2.1.3     ✔ forcats 1.0.0\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(troopdata)\n\nWarning: package 'troopdata' was built under R version 4.2.3\n\n\n\nbases <- get_basedata()\n\n# Some of the bases include unexpected characters which we need to address\nEncoding(bases$basename) <- \"latin1\"\n\nleaflet(data = bases) %>% \n  addTiles() %>%  #Add default OpenStreetMap map tiles\n  addMarkers(\n    lng = bases$lon,\n    lat = bases$lat,\n    popup = bases$basename,\n    label = bases$countryname\n  )\n\nWarning in validateCoords(lng, lat, funcName): Data contains 7 rows with either\nmissing or invalid lat/lon values and will be ignored"
+  }
+]

@@ -9,3 +9,27 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 1 + 1
 ```
+
+```{r}
+library(leaflet)
+library(tidyverse)
+library(troopdata)
+```
+
+
+```{r}
+bases <- get_basedata()
+
+# Some of the bases include unexpected characters which we need to address
+Encoding(bases$basename) <- "latin1"
+
+leaflet(data = bases) %>% 
+  addTiles() %>%  #Add default OpenStreetMap map tiles
+  addMarkers(
+    lng = bases$lon,
+    lat = bases$lat,
+    popup = bases$basename,
+    label = bases$countryname
+  )
+```
+
