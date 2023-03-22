@@ -1,0 +1,11 @@
+---
+title: "Portfolio"
+---
+
+I have done some projects in the realm of Data Analytics, some of these include:
+
+-   \[Analysis of Well being in relation to Finances\] (https://github.com/jackchinski/happiness_report)
+
+If you want to find my UX projects, you can find them at this link:
+
+-   \[Foodoo: An UX approach towards University Pick-Up Solutions\] (https://medium.com/\@acre2234/foodoo-a-university-pick-up-app-8c889be9fc42)

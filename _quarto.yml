@@ -8,13 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      - href: portfolio.qmd
+        text: Portfolio
+    right:
+      - href: A6 resume.pdf
+        text: Resume
 
 format:
   html:
     theme: 
-      dark: morph
+      dark: darkly
     css: styles.css
     toc: true
 

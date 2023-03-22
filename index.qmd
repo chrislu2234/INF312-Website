@@ -1,35 +1,9 @@
 ---
-title: "quarto_websiter"
+title: "Jin Di Lu's Website"
 ---
 
-This is a Quarto website.
+Hello, I'm Jin Di, but you can just call me Jin.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm currently a student at the University of Toronto's iSchool studying Information Sciences with a focus in UX and Data Sciences. I'm still figuring out which direction I want to head into.
 
-```{r}
-1 + 1
-```
-
-```{r}
-library(leaflet)
-library(tidyverse)
-library(troopdata)
-```
-
-
-```{r}
-bases <- get_basedata()
-
-# Some of the bases include unexpected characters which we need to address
-Encoding(bases$basename) <- "latin1"
-
-leaflet(data = bases) %>% 
-  addTiles() %>%  #Add default OpenStreetMap map tiles
-  addMarkers(
-    lng = bases$lon,
-    lat = bases$lat,
-    popup = bases$basename,
-    label = bases$countryname
-  )
-```
-
+If you want to contact me, you can email me at: chrislu2234\@gmail.com
