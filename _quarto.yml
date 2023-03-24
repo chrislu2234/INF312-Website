@@ -10,9 +10,8 @@ website:
         text: Home
       - href: portfolio.qmd
         text: Portfolio
-    right:
       - href: A6_resume.pdf
-        text: Resume
+        text: CV
 
 format:
   html:
