@@ -11,7 +11,7 @@ website:
       - href: portfolio.qmd
         text: Portfolio
     right:
-      - href: A6 resume.pdf
+      - href: A6_resume.pdf
         text: Resume
 
 format:
