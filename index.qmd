@@ -2,8 +2,10 @@
 title: "Jin Di Lu's Website"
 ---
 
-Hello, I'm Jin Di, but you can just call me Jin.
+Hello, I'm Jin Di, but you can just call me Jin. You might also know me by Chris.
 
-I'm currently a student at the University of Toronto's iSchool studying Information Sciences with a focus in UX and Data Sciences. I'm still figuring out which direction I want to head into.
+I'm currently a student at the University of Toronto's iSchool studying Information Sciences with a focus in UX and Data Sciences. I'm still figuring out what direction I want to head into.
+
+I love everything tech related. Currently considering the morbid pursuit of Sysadmin as a possible career route.
 
 If you want to contact me, you can email me at: chrislu2234\@gmail.com
